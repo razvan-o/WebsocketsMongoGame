@@ -20,5 +20,23 @@ Steps:
 5. Vote in both tabs ( integer 0-100 )
 
 6. Click "End Game" in tab 1 (playerId must be the one who started the game)
-    
-![image](https://user-images.githubusercontent.com/38734444/122838908-ad3ece80-d2ff-11eb-91b2-65df82e60bb9.png)
+
+![image](https://user-images.githubusercontent.com/38734444/122839012-e0815d80-d2ff-11eb-87b1-eba2aa6261b9.png)
+
+Improvements:
+1. persist game status in db - in the event of downtime, restore game status once server is up.
+2. schedule jobs to update game status according to desired timeframe:
+  - nobody joins in the first 3 minutes since game start -> cancel game
+  - first player joins -> 10 min to vote
+  - other players join -> they need to vote within the previously initiallized 10 min timer
+  - voting time ends -> declare winner + update skillPoints
+
+To auto-test at scale:
+Create endpoint that:
+1. Generates 1k test users (each having all the others friends)
+2. Call Auto-Pilot function 1k times, with different pairs of users as input
+
+The Auto-Pilot function:
+1. Sends WS event to service to create a room using player1
+2. WS event to join game with player2
+3. Ws events to vote for both players
