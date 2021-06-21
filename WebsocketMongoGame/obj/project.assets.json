@@ -455,11 +455,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\Users\\razva\\source\\repos\\WebsocketMongoGame\\WebsocketMongoGame\\WebsocketMongoGame.csproj",
+      "projectUniqueName": "B:\\Users\\razva\\source\\repos\\WebsocketsMongoGame\\WebsocketMongoGame\\WebsocketMongoGame.csproj",
       "projectName": "WebsocketMongoGame",
-      "projectPath": "B:\\Users\\razva\\source\\repos\\WebsocketMongoGame\\WebsocketMongoGame\\WebsocketMongoGame.csproj",
+      "projectPath": "B:\\Users\\razva\\source\\repos\\WebsocketsMongoGame\\WebsocketMongoGame\\WebsocketMongoGame.csproj",
       "packagesPath": "B:\\Users\\razva\\.nuget\\packages\\",
-      "outputPath": "B:\\Users\\razva\\source\\repos\\WebsocketMongoGame\\WebsocketMongoGame\\obj\\",
+      "outputPath": "B:\\Users\\razva\\source\\repos\\WebsocketsMongoGame\\WebsocketMongoGame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "B:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

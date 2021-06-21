@@ -91,7 +91,6 @@ namespace WebsocketMongoGame
 				}
 			}
 
-			// await SendWinMessageToGroup(gameId, String.Join(",", winners));
 			await Clients.Group(gameId).SendAsync("WinnersDetermined", gameId, String.Join(",", winners));
 
 			return winners;
@@ -114,7 +113,6 @@ namespace WebsocketMongoGame
 			// TODO: persist in DB
 			games[gameId].Players.SingleOrDefault(v => v.PlayerId == playerId).ChosenNumber = Int32.Parse(predictedNumber);
 
-			//await SendVoteMessageToGroup(gameId, playerId, predictedNumber);
 			await Clients.Group(gameId).SendAsync("ReceivedVote", playerId, predictedNumber);
 		}
 
@@ -158,15 +156,5 @@ namespace WebsocketMongoGame
 
 			return true;
 		}
-
-		public async Task SendVoteMessageToGroup(string gameId, string playerId, string vote)
-			=> await Clients.Group(gameId).SendAsync("ReceivedVote", playerId, vote);
-
-		private async Task SendJoinMessageToGroup(string gameId, string playerId)
-			=> await Clients.Group(gameId).SendAsync("PlayerJoined", playerId);
-
-		private async Task SendWinMessageToGroup(string gameId, string winners)
-			=> await Clients.Group(gameId).SendAsync("WinnersDetermined", gameId, winners);
-
 	}
 }

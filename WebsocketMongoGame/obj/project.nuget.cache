@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2eFMZ4Q3qbKFVtTGHi6+8HjB1ym2G2QFXoCV4Qe+S/mwd3qVGSA2mGc+o7NImpfHS4dlDHRMoPrHCQB78frTyQ==",
+  "dgSpecHash": "SnCRWyXuxES28M2SgfAPAiUKUtHxmtUY6aYzyqvBTAt0bABqyE5e7vOZhYlmsLORx/0cvEFtJXVSemeMFSobyg==",
   "success": true,
-  "projectFilePath": "B:\\Users\\razva\\source\\repos\\WebsocketMongoGame\\WebsocketMongoGame\\WebsocketMongoGame.csproj",
+  "projectFilePath": "B:\\Users\\razva\\source\\repos\\WebsocketsMongoGame\\WebsocketMongoGame\\WebsocketMongoGame.csproj",
   "expectedPackageFiles": [
     "B:\\Users\\razva\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "B:\\Users\\razva\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
