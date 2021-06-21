@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "B:\\Users\\razva\\source\\repos\\WebsocketMongoGame\\WebsocketMongoGame\\WebsocketMongoGame.csproj": {}
+  },
+  "projects": {
+    "B:\\Users\\razva\\source\\repos\\WebsocketMongoGame\\WebsocketMongoGame\\WebsocketMongoGame.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Users\\razva\\source\\repos\\WebsocketMongoGame\\WebsocketMongoGame\\WebsocketMongoGame.csproj",
+        "projectName": "WebsocketMongoGame",
+        "projectPath": "B:\\Users\\razva\\source\\repos\\WebsocketMongoGame\\WebsocketMongoGame\\WebsocketMongoGame.csproj",
+        "packagesPath": "B:\\Users\\razva\\.nuget\\packages\\",
+        "outputPath": "B:\\Users\\razva\\source\\repos\\WebsocketMongoGame\\WebsocketMongoGame\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "B:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "B:\\Users\\razva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "B:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "B:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "B:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugetreg.azurewebsites.net/nuget": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "B:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

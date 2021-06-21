@@ -1,0 +1,70 @@
+﻿@page
+
+
+
+<div class="container">
+	<div class="row">&nbsp;</div>
+	<div class="row">
+		<div class="col-2">Player</div>
+		<div class="col-16"><input type="text" id="userInput" /></div>
+	</div>
+
+	<div class="row">
+		<div class="col-2">Friends</div>
+		<div class="col-16"><input type="text" id="friendsInput" /></div>
+	</div>
+
+	<div class="row">
+		<div class="col-2">GameId</div>
+		<div class="col-16"><input type="text" id="gameIdInput" /></div>
+	</div>
+
+	<div class="row">&nbsp;</div>
+	<div class="row">
+		<div class="col-6">
+			<input type="button" id="start" value="Start Game" />
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-6">
+			<input type="button" id="join" value="Join Game" />
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-6">
+			<input type="button" id="endGame" value="End Game" />
+		</div>
+	</div>
+
+	<br />
+
+	<div class="row">
+
+		<div>
+			<div class="col-12">Predicted Number</div>
+			<div class="col-4"><input type="text" id="predictedNumber" /></div>
+		</div>
+
+		<div class="col-4" style="margin-top:25px">
+			<input type="button" id="voteButton" value="Vote" />
+		</div>
+
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-12">
+		<hr />
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-6">
+		<ul id="messagesList"></ul>
+	</div>
+</div>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/game.js"></script>
