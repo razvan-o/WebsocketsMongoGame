@@ -2,7 +2,8 @@
 
 Steps:
 1. Generate users ( GET https://localhost:44367/api/players/generate )
-![image](https://user-images.githubusercontent.com/38734444/122840125-2ccd9d00-d302-11eb-986b-817273a03c41.png)
+![image](https://user-images.githubusercontent.com/38734444/122840187-4b339880-d302-11eb-92b0-591acb341d45.png)
+
 
 2. Open 2 (or more) tabs on https://localhost:44367
 
